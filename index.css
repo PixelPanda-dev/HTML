@@ -271,10 +271,12 @@ body {
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     transition: background-color 0.3s ease;
+    text-decoration: none !important;
 }
 
 .sidebar-nav-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
 }
 
 .sidebar-nav-link:last-of-type {
@@ -286,7 +288,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: none !important;
     width: 300px;
     height: 72px;
     display: flex;
@@ -302,6 +304,7 @@ body {
 
 .sidebar-button:hover {
     opacity: 0.9;
+    color: #FFFFFF !important;
 }
 
 .sidebar-button-text {
@@ -799,7 +802,7 @@ body {
         align-items: center;
         width: 100%;
         gap: 40px;
-        margin-top: 40px;
+        margin-top: 1200px;
     }
 
     .info-card {
@@ -853,17 +856,31 @@ body {
         gap: 24px;
     }
 
+    .info-section {
+        margin-top: 2150px;
+    }
+
+    .info-cards {
+        margin-top: 200px;
+        flex-wrap: wrap;
+    }
+
     .info-card {
-        width: min(520px, 92%);
-        height: auto;
-        flex-direction: column;
+        width: min(350px, 92%);
+        height: 196px;
+        padding: 20px;
         align-items: flex-start;
         gap: 28px;
+    }
+
+    .info-card .card-content .card-content-title {
+        font-size: 32px;
     }
 
     .info-card-button {
         align-self: flex-end;
     }
+
 }
 
 @media (max-width: 716px) {
@@ -928,7 +945,7 @@ body {
         height: 80px;
     }
 
-    .info-section {
+    /* .info-section {
         gap: 24px;
     }
 
@@ -940,5 +957,5 @@ body {
     .info-card-button {
         width: 60px;
         height: 60px;
-    }
+    } */
 }
