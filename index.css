@@ -637,6 +637,7 @@ body {
     margin-top: 200px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     z-index: 16;
     background-image: url('./images/back-2.png');
@@ -658,7 +659,7 @@ body {
     height: 272px;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 40px;  
     background: linear-gradient(#13448B, #011D45);
     box-shadow: 0 30px 50px rgba(21, 73, 148, 0.2);
     color: #ffffff;
@@ -699,6 +700,103 @@ body {
     height: 63px;
     border-radius: 50%;
     border: 4px solid #4E6381;
+}
+
+.recruit {
+    width: 100%;
+    height: 440px;
+    background-image: url('./images/back-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    position: relative;
+}
+
+.recruit-section {
+    width: 716px;
+    height: 519px;
+    background-image: url('./images/back-4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    top: 136px;
+    display: flex;
+}
+
+.recruit-card {
+    width: 100%;
+    background: transparent;
+    border-radius: 24px;
+    padding: 42px 80px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.recruit-tag {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.recruit-dot {
+    width: 8px;
+    height: 8px;
+}
+
+.recruit-title {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+.recruit-text {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.recruit-button {
+    width: 300px;
+    height: 68px;
+    border-radius: 34px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.recruit-button-icon {
+    width: 18px;
+    height: 18px;
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    transform: rotate(-45deg);
+    display: inline-block;
+}
+
+.recruit-button:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.9);
+    transform: translateX(6px);
 }
 
 @media (max-width: 1280px) {
@@ -808,6 +906,11 @@ body {
     .info-card {
         width: min(520px, 90%);
     }
+
+    .recruit {
+        height: auto;
+        padding: 140px 0 200px;
+    }
 }
 
 /* Responsive styles for screens under 1025px */
@@ -881,6 +984,20 @@ body {
         align-self: flex-end;
     }
 
+    .recruit-card {
+        padding: 36px 32px;
+        gap: 24px;
+    }
+
+    .recruit-title {
+        font-size: 36px;
+    }
+
+    .recruit-button {
+        width: 260px;
+        height: 60px;
+    }
+
 }
 
 @media (max-width: 716px) {
@@ -945,17 +1062,25 @@ body {
         height: 80px;
     }
 
-    /* .info-section {
-        gap: 24px;
+    .recruit {
+        width: 100%;
+        height: 440px;
+        background-image: url('./images/back-3-again.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 150px;
+        position: relative;
     }
 
-    .info-card {
-        width: min(520px, 94%);
-        padding: 30px 24px;
+    .recruit-section {
+        width: 370px;
+        height: 457px;
+        background-image: url(./images/back-4-top.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        right: 0;
+        top: 180px;
+        display: flex;
     }
-
-    .info-card-button {
-        width: 60px;
-        height: 60px;
-    } */
 }
