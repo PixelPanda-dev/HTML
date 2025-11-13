@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header-container">
@@ -58,14 +60,17 @@
                 <a href="#" class="sidebar-nav-link">お問い合わせ</a>
             </nav>
             <a href="#" class="sidebar-button">
-                <span class="sidebar-button-text">採用情報はこちら<img style="width: 24px; height: 24px; margin-left: 50px; margin-bottom: 6px;" src="images/arrow-icon.png" alt="Arrow Icon" class="arrow-icon"></span>
+                <span class="sidebar-button-text">採用情報はこちら<img
+                        style="width: 24px; height: 24px; margin-left: 50px; margin-bottom: 6px;"
+                        src="images/arrow-icon.png" alt="Arrow Icon" class="arrow-icon"></span>
             </a>
         </div>
     </aside>
 
     <!-- Slideshow Section -->
     <section class="slideshow-section">
-        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="autoplay: true; autoplay-interval: 4000; animation: slide; velocity: 0.5">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1"
+            uk-slideshow="autoplay: true; autoplay-interval: 4000; animation: slide; velocity: 0.5">
             <ul class="uk-slideshow-items">
                 <li>
                     <img src="images/Slide_1.png" alt="Slide 1" uk-cover>
@@ -99,7 +104,7 @@
     <section class="background-section">
         <div class="path-img">
             <img class="path" src="./images/path.png" alt="">
-            <img src="./images/other-path.png" alt="">
+            <!-- <img src="./images/other-path.png" alt=""> -->
         </div>
         <div class="background-text">
             <div class="background-text-line">光技術の最前線を切り拓きます</div>
@@ -121,7 +126,9 @@
         <div class="products-section">
             <div class="products-card">
                 <div class="products-heading">
-                    <span class="products-heading-jp"><img style="width: 12px; height: 12px; margin-right: 10px; margin-bottom: 5px;" src="./images/dot.png" alt="">製品紹介</span>
+                    <span class="products-heading-jp"><img
+                            style="width: 12px; height: 12px; margin-right: 10px; margin-bottom: 5px;"
+                            src="./images/dot.png" alt="">製品紹介</span>
                     <span class="products-heading-en">PRODUCTS</span>
                 </div>
                 <div class="products-grid">
@@ -164,8 +171,45 @@
                 </div>
                 <button class="product-button">
                     <span class="product-button-text">製品案内へ</span>
-                    <img src="./images/Icon feather-arrow-right.png" style="width: 24px; height: 24px; margin-left: 50px;" alt="" class="product-button-icon">
+                    <img src="./images/Icon feather-arrow-right.png"
+                        style="width: 24px; height: 24px; margin-left: 50px;" alt="" class="product-button-icon">
                 </button>
+            </div>
+        </div>
+    </section>
+    <section class="info-section">
+        <div class="info-cards">
+            <div class="info-card">
+                <div class="card-content">
+                    <p><span><img src="./images/dot-white.png" alt=""
+                                style="margin-bottom: 5px; margin-right: 5px;"></span>主要設備</p>
+                    <div class="card-content-title">FACILITY</div>
+                </div>
+                <div class="card-tag">
+                    <div class="card-tag-content">
+                        <p>最新設備を揃え、お客様の</p>
+                        <p>課題や要望にお応えいたします。</p>
+                    </div>
+                    <div>
+                        <button class="card-tag-button"><img src="./images/arrow-right-blue.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="card-content">
+                    <p><span><img src="./images/dot-white.png" alt=""
+                                style="margin-bottom: 5px; margin-right: 5px;"></span>会社案内</p>
+                    <div class="card-content-title">COMPANY</div>
+                </div>
+                <div class="card-tag">
+                    <div class="card-tag-content">
+                        <p>最高「品質」の実現を</p>
+                        <p>追求しております</p>
+                    </div>
+                    <div>
+                        <button class="card-tag-button"><img src="./images/arrow-right-blue.png" alt=""></button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -175,5 +219,5 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
     <script src="index.js"></script>
 </body>
-</html>
 
+</html>
