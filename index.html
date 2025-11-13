@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゼネラルオプティックス株式会社</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/logo.png" alt="GRIMEXCO Logo" class="logo">
+                <div class="company-name">
+                    <div class="company-name-main">ゼネラルオプティックス</div>
+                    <div class="company-name-sub">株式会社</div>
+                </div>
+            </div>
+            <nav class="navigation">
+                <a href="#" class="nav-link">TOP</a>
+                <a href="#" class="nav-link">会社案内</a>
+                <a href="#" class="nav-link">製品案内</a>
+                <a href="#" class="nav-link">主要設備</a>
+                <a href="#" class="nav-link">お知らせ</a>
+                <a href="#" class="nav-link">お問い合わせ</a>
+                <a href="#" class="nav-button">採用情報</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu" id="menuToggle">
+                <img style="width: 24px; height: 16px;" src="images/menu-icon.png" alt="Menu Icon" class="menu-icon">
+            </button>
+        </div>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="sidebar-menu" id="sidebarMenu">
+        <div class="sidebar-header">
+            <div class="sidebar-header-content">
+                <img src="images/logo.png" alt="GRIMEXCO Logo" class="sidebar-logo">
+                <div class="sidebar-company-name">
+                    <div class="sidebar-company-name-main">ゼネラルオプティックス</div>
+                    <div class="sidebar-company-name-sub">株式会社</div>
+                </div>
+            </div>
+            <button class="sidebar-close" aria-label="Close Menu" id="sidebarClose">
+                <img style="width: 24px; height: 16px;" src="images/close-icon.png" alt="Close Icon" class="close-icon">
+            </button>
+        </div>
+        <div class="sidebar-body">
+            <nav class="sidebar-nav">
+                <a href="#" class="sidebar-nav-link">TOP</a>
+                <a href="#" class="sidebar-nav-link">会社案内</a>
+                <a href="#" class="sidebar-nav-link">製品案内</a>
+                <a href="#" class="sidebar-nav-link">主要設備</a>
+                <a href="#" class="sidebar-nav-link">お知らせ</a>
+                <a href="#" class="sidebar-nav-link">お問い合わせ</a>
+            </nav>
+            <a href="#" class="sidebar-button">
+                <span class="sidebar-button-text">採用情報はこちら<img style="width: 24px; height: 24px; margin-left: 50px; margin-bottom: 6px;" src="images/arrow-icon.png" alt="Arrow Icon" class="arrow-icon"></span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow-section">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="autoplay: true; autoplay-interval: 4000; animation: slide; velocity: 0.5">
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="images/Slide_1.png" alt="Slide 1" uk-cover>
+                    <img src="images/Slide_small_1.png" alt="Slide Small 1" class="slide-small-image">
+                    <div class="slide-text-overlay">
+                        <div class="slide-catch-copy">このあたりに<br>キャッチコピーが入ります。</div>
+                        <div class="slide-body-text">このあたりにテキストが入ります。このあたりにテキストが入ります。このあたりにテキストが入ります。</div>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/Slide_2.png" alt="Slide 2" uk-cover>
+                    <img src="images/Slide_small_2.png" alt="Slide Small 2" class="slide-small-image">
+                    <div class="slide-text-overlay">
+                        <div class="slide-catch-copy">このあたりに<br>キャッチコピーが入ります。</div>
+                        <div class="slide-body-text">このあたりにテキストが入ります。このあたりにテキストが入ります。このあたりにテキストが入ります。</div>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/Slide_3.png" alt="Slide 3" uk-cover>
+                    <img src="images/Slide_small_3.png" alt="Slide Small 3" class="slide-small-image">
+                    <div class="slide-text-overlay">
+                        <div class="slide-catch-copy">このあたりに<br>キャッチコピーが入ります。</div>
+                        <div class="slide-body-text">このあたりにテキストが入ります。このあたりにテキストが入ります。このあたりにテキストが入ります。</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Background Section -->
+    <section class="background-section">
+        <div class="path-img">
+            <img src="./images/path.png" alt="">
+        </div>
+        <div class="background-text">
+            <div class="background-text-line">光技術の最前線を切り拓きます</div>
+            <div class="background-text-line">プロフェッショナルとして、</div>
+            <div class="background-text-line">光学結晶と薄膜技術の</div>
+        </div>
+        <div class="background-img-1">
+            <img src="./images/machine_01.png" alt="">
+        </div>
+        <div class="background-img-2">
+            <img src="./images/DSC00370_2.png" alt="">
+        </div>
+        <div class="background-img-3">
+            <img src="./images/Haruchika_polishingmachine.png" alt="">
+        </div>
+        <div class="background-img-4">
+            <img src="./images/Automatic_deposition_machine.png" alt="">
+        </div>
+        <div class="products-section">
+            <div class="products-card">
+                <div class="products-heading">
+                    <span class="products-heading-jp"><img style="width: 12px; height: 12px; margin-right: 10px; margin-bottom: 5px;" src="./images/dot.png" alt="">製品紹介</span>
+                    <span class="products-heading-en">PRODUCTS</span>
+                </div>
+                <div class="products-grid">
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./images/product.png" alt="製品画像">
+                        </div>
+                        <div class="product-name">ここに製品名が入ります</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./images/product.png" alt="製品画像">
+                        </div>
+                        <div class="product-name">ここに製品名が入ります</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./images/product.png" alt="製品画像">
+                        </div>
+                        <div class="product-name">ここに製品名が入ります</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./images/product.png" alt="製品画像">
+                        </div>
+                        <div class="product-name">ここに製品名が入ります</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./images/product.png" alt="製品画像">
+                        </div>
+                        <div class="product-name">ここに製品名が入ります</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="./images/product.png" alt="製品画像">
+                        </div>
+                        <div class="product-name">ここに製品名が入ります</div>
+                    </div>
+                </div>
+                <button class="product-button">
+                    <span class="product-button-text">製品案内へ</span>
+                    <img src="./images/Icon feather-arrow-right.png" style="width: 24px; height: 24px; margin-left: 50px;" alt="" class="product-button-icon">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
