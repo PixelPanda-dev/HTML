@@ -641,65 +641,70 @@ body {
         gap: 0px;
     }
 
-    .path-img {
-        display: none;
-    }
-
     .background-text-line {
         font-size: 25px;
     }
 
     .background-img-1 {
-        width: 140px;
-        height: 120px;
+        width: 240px;
+        height: 160px;
         position: absolute;
         top: 35px;
         left: 40px;
     }
     
     .background-img-1 img {
-        width: 140px;
-        height: 120px;
+        width: 240px;
+        height: 160px;
     }
     
     .background-img-2 {
-        width: 140px;
-        height: 120px;
+        width: 240px;
+        height: 160px;
         position: absolute;
         top: 556px;
         right: 40px;
     }
     
     .background-img-2 img {
-        width: 140px;
-        height: 120px;
+        width: 240px;
+        height: 160px;
     }
     
     .background-img-3 {
-        width: 120px;
-        height: 80px;
+        width: 400px;
+        height: 256px;
         position: absolute;
-        top: 175px;
+        top: 225px;
         left: 0px;
     }
     
     .background-img-3 img {
-        width: 120px;
-        height: 80px;
+        width: 200px;
+        height: 120px
     }
     
     .background-img-4 {
-        width: 120px;
-        height: 80px;
+        width: 200px;
+        height: 120px;
         position: absolute;
-        top: 460px;
-        left:calc(100% - 120px);
+        top: 420px;
+        left:calc(100% - 200px);
     }
     
     .background-img-4 img {
-        width: 120px;
-        height: 80px;
+        width: 200px;
+        height: 120px;
     }
+
+    .background-section .path-img {
+        top: 200px;
+    }
+
+    .background-section .path-img img {
+        height: 516px;
+    }
+
 
     .products-section {
         top: 716px;
@@ -764,5 +769,68 @@ body {
     .products-grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
+    }
+}
+
+@media (max-width: 716px) {
+
+    .background-section .path-img .path {
+        display: none;
+    }
+
+    .background-text-line {
+        font-size: 25px;
+    }
+
+    .background-img-1 {
+        width: 140px;
+        height: 120px;
+        position: absolute;
+        top: 35px;
+        left: 40px;
+    }
+    
+    .background-img-1 img {
+        width: 140px;
+        height: 120px;
+    }
+    
+    .background-img-2 {
+        width: 140px;
+        height: 120px;
+        position: absolute;
+        top: 556px;
+        right: 40px;
+    }
+    
+    .background-img-2 img {
+        width: 140px;
+        height: 120px;
+    }
+    
+    .background-img-3 {
+        width: 120px;
+        height: 80px;
+        position: absolute;
+        top: 175px;
+        left: 0px;
+    }
+    
+    .background-img-3 img {
+        width: 120px;
+        height: 80px;
+    }
+    
+    .background-img-4 {
+        width: 120px;
+        height: 80px;
+        position: absolute;
+        top: 460px;
+        left:calc(100% - 120px);
+    }
+    
+    .background-img-4 img {
+        width: 120px;
+        height: 80px;
     }
 }
