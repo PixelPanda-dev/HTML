@@ -325,6 +325,13 @@ body {
     padding: 30px 80px;
 }
 
+.title-icon {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 3px;
+    margin-right: 6px;
+}
+
 .back-img {
     width: 100%;
     height: 770px;
@@ -966,6 +973,11 @@ footer {
 }
 
 @media (max-width: 716px) {
+
+    .title-icon {
+        width: 8px;
+        height: 8px;
+    }
 
     .back-img {
         height: 400px;
