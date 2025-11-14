@@ -44,10 +44,12 @@ sidebarLinks.forEach(link => {
 // Scroll to top functionality
 const scrollToTopButton = document.getElementById('scrollToTop');
 
-scrollToTopButton.addEventListener('click', function() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
+if (scrollToTopButton) {
+    scrollToTopButton.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     });
-});
+}
 
