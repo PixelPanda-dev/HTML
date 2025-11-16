@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お知らせ - ゼネラルオプティックス株式会社</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/logo.png" alt="GRIMEXCO Logo" class="logo">
+                <div class="company-name">
+                    <div class="company-name-main">ゼネラルオプティックス</div>
+                    <div class="company-name-sub">株式会社</div>
+                </div>
+            </div>
+            <nav class="navigation">
+                <a href="index.html" class="nav-link">TOP</a>
+                <a href="about.html" class="nav-link">会社案内</a>
+                <a href="product.html" class="nav-link">製品案内</a>
+                <a href="facility.html" class="nav-link">主要設備</a>
+                <a href="news.html" class="nav-link">お知らせ</a>
+                <a href="contact.html" class="nav-link">お問い合わせ</a>
+                <a href="#" class="nav-button">採用情報</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu" id="menuToggle">
+                <img style="width: 24px; height: 16px;" src="images/menu-icon.png" alt="Menu Icon" class="menu-icon">
+            </button>
+        </div>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="sidebar-menu" id="sidebarMenu">
+        <div class="sidebar-header">
+            <div class="sidebar-header-content">
+                <img src="images/logo.png" alt="GRIMEXCO Logo" class="sidebar-logo">
+                <div class="sidebar-company-name">
+                    <div class="sidebar-company-name-main">ゼネラルオプティックス</div>
+                    <div class="sidebar-company-name-sub">株式会社</div>
+                </div>
+            </div>
+            <button class="sidebar-close" aria-label="Close Menu" id="sidebarClose">
+                <img style="width: 24px; height: 16px;" src="images/close-icon.png" alt="Close Icon" class="close-icon">
+            </button>
+        </div>
+        <div class="sidebar-body">
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-nav-link">TOP</a>
+                <a href="about.html" class="sidebar-nav-link">会社案内</a>
+                <a href="product.html" class="sidebar-nav-link">製品案内</a>
+                <a href="facility.html" class="sidebar-nav-link">主要設備</a>
+                <a href="news.html" class="sidebar-nav-link">お知らせ</a>
+                <a href="contact.html" class="sidebar-nav-link">お問い合わせ</a>
+            </nav>
+            <a href="#" class="sidebar-button">
+                <span class="sidebar-button-text">採用情報はこちら</span>
+                <span><img style="width: 24px; height: 24px; margin-left: 50px; margin-top: 6px;"
+                        src="images/arrow-icon.png" alt="Arrow Icon" class="arrow-icon"></span>
+            </a>
+        </div>
+    </aside>
+
+
+    <section class="contact">
+        <div class="back-img">
+
+        </div>
+        <div class="contact-container">
+            <div class="page-text">
+                <p>TOP <span><img style="width: 8px; height: 12px;" src="./images/arrow.png" alt=""></span> お問い合わせ</p>
+            </div>
+            <div class="page-title">
+                <div class="title">CONTACT</div>
+                <p class="text"><span><img class="title-icon" src="./images/dot.png" alt=""></span>お問い合わせ</p>
+            </div>
+            <div class="contact-phone-section">
+                <div class="contact-phone-box">
+                    <h3 class="contact-phone-title">お電話でのお問い合わせ</h3>
+                    <div class="contact-phone-divider"></div>
+                    <div class="contact-phone-info">
+                        <img src="./images/phone-icon.png" alt="Phone" class="contact-phone-icon">
+                        <span class="contact-phone-number">0187-87-3322</span>
+                        <span class="contact-phone-hours">(平日 8:00~17:00)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-email-section">
+                <div class="contact-email-box">
+                    <h3 class="contact-email-title">メールでのお問い合わせ</h3>
+                    <p class="contact-email-intro">ご質問・お見積り依頼などお気軽にお問い合わせください。お問い合わせ内容によっては返信にお時間をいただく場合がございます。</p>
+                    <form class="contact-email-form">
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>お問い合わせ種別</span>
+                                <span class="required-badge">必須</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <div class="radio-group">
+                                    <label class="radio-label">
+                                        <input type="radio" name="inquiry_type" value="quotation" checked>
+                                        <span>見積依頼</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="inquiry_type" value="company">
+                                        <span>会社について</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="inquiry_type" value="other">
+                                        <span>その他</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>会社名</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <input type="text" name="company" placeholder="ゼネラルオプティックス株式会社">
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>お名前</span>
+                                <span class="required-badge">必須</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <input type="text" name="name" placeholder="佐藤 一郎" required>
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>メールアドレス</span>
+                                <span class="required-badge">必須</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <input type="email" name="email" placeholder="sample@genexcoopt.com" required>
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>電話番号</span>
+                                <span class="required-badge">必須</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <input type="tel" name="phone" placeholder="0123-45-6789" required>
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>郵便番号</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <input type="text" name="postal_code" placeholder="012-3456">
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>住所</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <input type="text" name="address" placeholder="秋田県大仙市○○町○○○○1-2-3">
+                            </div>
+                        </div>
+                        <div class="contact-form-row">
+                            <div class="contact-form-label">
+                                <span>お問い合わせ内容</span>
+                            </div>
+                            <div class="contact-form-input">
+                                <textarea name="message" rows="6" placeholder=""></textarea>
+                            </div>
+                        </div>
+                        <div class="contact-form-row checkbox-row">
+                            <div class="contact-form-label"></div>
+                            <div class="contact-form-input">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="privacy_policy" required>
+                                    <span>プライバシーポリシーに同意します</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="contact-form-submit">
+                            <button type="submit" class="submit-button">
+                                <span>送信する</span>
+                                <img src="./images/arrow-icon.png" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+            <span class="scroll-arrow"><img style="width: 20px; height: 20px;" src="./images/allow-top.png"
+                    alt=""></span>
+            <span class="scroll-text">TOP</span>
+        </button>
+        <div class="footer-background">
+            <img src="./images/g-icon.png" alt="G Icon" class="footer-g-icon">
+        </div>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo-section">
+                    <img src="./images/logo.png" alt="GRIMEXCO Logo" class="footer-logo">
+                    <div class="logo-content">
+                        <div class="footer-company-name">ゼネラルオプティックス株式会社</div>
+                        <div class="footer-info">
+                            <p>〒014-0711 秋田県大仙市豊川字八丁堀69-2</p>
+                            <p>TEL : 0187-57-3322</p>
+                            <p>FAX : 0187-57-3325</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <nav class="footer-nav">
+                    <a href="index.html" class="footer-nav-link">TOP</a>
+                    <a href="about.html" class="footer-nav-link">会社案内</a>
+                    <a href="product.html" class="footer-nav-link">製品案内</a>
+                    <a href="facility.html" class="footer-nav-link">主要設備</a>
+                    <a href="news.html" class="footer-nav-link">お知らせ</a>
+                    <a href="contact.html" class="footer-nav-link">お問い合わせ</a>
+                    <a href="#" class="footer-nav-link">採用情報</a>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-left">
+                <p>プライバシーポリシー <span><img style="margin-left:48px; height: 16px;" src="./images/footer-icon.png"
+                            alt=""></span></p>
+            </div>
+            <div class="bottom-right">
+                <p>Copyright © genexcoopt co.Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
