@@ -18,6 +18,8 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #E5E5E5;
+    position: relative;
+    z-index: 100;
 }
 
 .header-container {
@@ -33,6 +35,20 @@ body {
     align-items: center;
     gap: 15px;
     margin-left: 13px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.logo-section:hover {
+    text-decoration: none;
+}
+
+.logo-section:hover .company-name-main,
+.logo-section:hover .company-name-sub {
+    text-decoration: none;
 }
 
 .logo {
@@ -194,6 +210,11 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
 
 .sidebar-logo {
@@ -671,6 +692,7 @@ footer {
     height: 100%;
     z-index: 0;
     opacity: 0.1;
+    pointer-events: none;
 }
 
 .footer-g-icon {
@@ -808,6 +830,8 @@ footer {
     justify-content: space-between;
     color: #FFFFFF;
     padding-top: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .bottom-left {
