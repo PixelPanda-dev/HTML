@@ -463,7 +463,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.08em;
-    border: 3px solid #A6BAD6;
+    border: 4px solid #A6BAD6;
     margin-top: 109px;
     box-shadow: 0 20px 40px rgba(8, 45, 97, 0.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
@@ -608,6 +608,11 @@ body {
 .contact-email-arrow img {
     width: 20px;
     height: 20px;
+}
+
+.contact-email-arrow:hover {
+    border-color: #FFFFFF;
+    transform: translateX(4px);
 }
 
 .contact-phone {

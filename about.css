@@ -976,6 +976,11 @@ body {
     height: 20px;
 }
 
+.contact-email-arrow:hover {
+    border-color: #FFFFFF;
+    transform: translateX(4px);
+}
+
 .contact-phone {
     width: 384px;
     height: 104px;

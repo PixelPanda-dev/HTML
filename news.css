@@ -462,12 +462,7 @@ body {
 }
 
 .news-arrow:hover {
-    background-color: #154994;
-    border-color: #154994;
-}
-
-.news-arrow:hover span {
-    color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 
 .pagination {
@@ -647,6 +642,11 @@ body {
 .contact-email-arrow img {
     width: 20px;
     height: 20px;
+}
+
+.contact-email-arrow:hover {
+    border-color: #FFFFFF;
+    transform: translateX(4px);
 }
 
 .contact-phone {

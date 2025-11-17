@@ -635,15 +635,15 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, filter 0.3s ease;
     text-decoration: none !important;
 }
 
 .product-button:hover {
-    background-color: #ffffff;
-    color: #103D7D;
-    border-color: #D7DFE8;
+    border-color: #103D7D;
     transform: translateY(-2px);
+    filter: blur(0.5px);
+    color: #FFFFFF;
 }
 
 .product-button-text {
@@ -722,6 +722,14 @@ body {
     height: 63px;
     border-radius: 50%;
     border: 4px solid #4E6381;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease, border-color 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.card-tag-button:hover {
+    border-color: #FFFFFF;
+    filter: blur(0.5px);
 }
 
 .recruit {
@@ -804,8 +812,13 @@ body {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, filter 0.3s ease;
     text-decoration: none !important;
+}
+
+.recruit-button:hover {
+    border-color: #FFFFFF;
+    color: #13448B;
 }
 
 .recruit-button-icon {
@@ -939,6 +952,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    background-color: #FFFFFF;
     transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -948,13 +962,8 @@ body {
 }
 
 .news-item-link:hover {
-    background-color: #103D7D;
-    border-color: #103D7D;
+    border-color: #FFFFFF;
     transform: translateX(4px);
-}
-
-.news-item-link:hover img {
-    filter: brightness(0) invert(1);
 }
 
 .news-button {
@@ -984,14 +993,9 @@ body {
 }
 
 .news-button:hover {
-    background-color: #ffffff;
-    color: #103D7D;
-    border-color: #D7DFE8;
+    border-color: #103D7D;
     transform: translateY(-2px);
-}
-
-.news-button:hover .news-button-icon {
-    filter: brightness(0);
+    color: #FFFFFF;
 }
 
 .contact {
@@ -1116,20 +1120,10 @@ body {
     height: 20px;
 }
 
-/* .contact-email-arrow:hover {
-    background-color: #103D7D;
-    border-color: #103D7D;
+.contact-email-arrow:hover {
+    border-color: #FFFFFF;
     transform: translateX(4px);
 }
-
-.contact-email-arrow:hover img {
-    filter: brightness(0) invert(1);
-}
-
-.contact-email:hover {
-    background-color: #0b2f62;
-    transform: translateY(-2px);
-} */
 
 .contact-phone {
     width: 384px;
