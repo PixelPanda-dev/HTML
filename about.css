@@ -916,7 +916,7 @@ body {
     line-height: 1.8;
     margin: 0;
     max-width: 400px;
-    letter-spacing: -5px;
+    letter-spacing: -1px;
 }
 
 .contact-right {
