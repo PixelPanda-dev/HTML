@@ -85,7 +85,7 @@ body {
 .nav-link {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
-    color: #333333;
+    color: #444C55;
     text-decoration: none !important;
     transition: color 0.3s ease;
     position: relative;
@@ -93,7 +93,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #333333 !important;
+    color: #444C55 !important;
 }
 
 .nav-link::after {
@@ -365,7 +365,7 @@ body {
 
 .page-text {
     font-size: 16px;
-    color: #333333;
+    color: #444C55;
     position: relative;
     z-index: 2;
 }
@@ -387,6 +387,7 @@ body {
 .page-title .text {
     font-size: 32px;
     font-weight: bold;
+    color: #444C55;
 }
 
 .news-list {
@@ -418,7 +419,7 @@ body {
 
 .news-detail-title {
     font-size: 24px;
-    color: #333333;
+    color: #444C55;
     margin: 0;
     letter-spacing: -0.03em;
 }
@@ -441,7 +442,7 @@ body {
 .news-detail-body {
     font-size: 16px;
     line-height: 2;
-    color: #333333;
+    color: #444C55;
     letter-spacing: -0.03em;
     display: flex;
     flex-direction: column;
@@ -452,7 +453,7 @@ body {
 .news-back-button {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 300px;
     height: 72px;
     border-radius: 40px;
@@ -486,6 +487,7 @@ body {
 
 .news-back-label {
     flex: 1;
+    text-align: center;
 }
 
 .contact {
@@ -546,7 +548,7 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #333333;
+    color: #444C55;
     line-height: 1.8;
     margin: 0;
     max-width: 400px;
@@ -619,7 +621,7 @@ body {
     width: 384px;
     height: 104px;
     border-radius: 52px;
-    background-color: #E8F0F8;
+    background-color: #D1E7F7;
     display: flex;
     align-items: center;
     padding: 24px 32px;
@@ -722,7 +724,6 @@ footer {
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: 0.1;
     pointer-events: none;
 }
 
@@ -833,7 +834,7 @@ footer {
 
 .footer-nav {
     display: flex;
-    gap: 32px;
+    gap: 25px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -841,7 +842,7 @@ footer {
 .footer-nav-link {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
     text-decoration: none;
     transition: opacity 0.3s ease;
@@ -887,6 +888,26 @@ footer {
     margin: 0;
 }
 
+@media (max-width: 1280px) {
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        width: 100%;
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+    }
+
+    .footer-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 /* Responsive styles for screens under 1025px */
 @media (max-width: 1024px) {
     .navigation {
@@ -901,17 +922,8 @@ footer {
         display: none;
     }
 
-    .footer-container {
-        gap: 0;
-        flex-wrap: wrap;
-    }
-
     .footer-left {
         width: 100%;
-    }
-
-    .footer-right {
-        display: none !important;
     }
 
     .news-detail-card {
@@ -924,6 +936,11 @@ footer {
 }
 
 @media (max-width: 900px) {
+    .footer-container {
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
     .contact {
         padding-left: 20px;
         padding-right: 20px;
@@ -961,6 +978,10 @@ footer {
     .logo-content {
         width: 100%;
         text-align: center;
+    }
+
+    .footer-right {
+        display: none !important;
     }
 
     .bottom {

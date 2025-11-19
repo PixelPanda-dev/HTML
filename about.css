@@ -387,6 +387,7 @@ body {
 .page-title .text {
     font-size: 32px;
     font-weight: bold;
+    color: #444C55;
 }
 
 .about-boss {
@@ -534,7 +535,7 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #103D7D;
+    color: #444C55;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -641,7 +642,7 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #103D7D;
+    color: #444C55;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -777,7 +778,7 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #333333;
+    color: #444C55;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -985,7 +986,7 @@ body {
     width: 384px;
     height: 104px;
     border-radius: 52px;
-    background-color: #E8F0F8;
+    background-color: #D1E7F7;
     display: flex;
     align-items: center;
     padding: 24px 32px;
@@ -1088,7 +1089,6 @@ footer {
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: 0.1;
     pointer-events: none;
 }
 
@@ -1199,7 +1199,7 @@ footer {
 
 .footer-nav {
     display: flex;
-    gap: 32px;
+    gap: 25px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -1207,7 +1207,7 @@ footer {
 .footer-nav-link {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
     text-decoration: none;
     transition: opacity 0.3s ease;
@@ -1255,49 +1255,30 @@ footer {
 
 @media (max-width: 1280px) {
 
-    .about-boss {
+
+    .message-tag-footer {
         margin-top: 50px;
     }
 
-    .boss-img {
-        position: unset;
-        justify-content: center;
-    }
-
-    .boss-message {
-        position: unset;
-        display: flex;
-        justify-content: center;
-    }
-
     .boss-img img {
-        width: 100%;
-        height: auto;
+        width: 600px;
+        height: 440px;
     }
 
     .message-tag {
-        width: 100%;
+        width: 600px;
+        padding: 40px 60px;
     }
 
     .vision {
         width: 100%;
-    }
-
-    .vision-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .vision-icon {
-        margin-bottom: 40px;
-    }
-
-    .vision-content {
-        margin-left: 0;
+        margin-top: 50px;
     }
 
     .outline {
         margin-top: 80px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .outline-container {
@@ -1315,6 +1296,10 @@ footer {
         width: 100%;
         max-width: 720px;
         height: auto;
+    }
+
+    .outline-table {
+        margin: 0px 30px;
     }
 
     .outline-icon-top {
@@ -1357,6 +1342,64 @@ footer {
         font-size: 24px;
         min-width: 80px;
     }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        width: 100%;
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+    }
+
+    .footer-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    .about-boss {
+        margin-top: 50px;
+    }
+
+    .boss-img {
+        position: unset;
+        justify-content: center;
+    }
+
+    .boss-message {
+        position: unset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .boss-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .message-tag {
+        width: 100%;
+    }
+
+    .vision-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .vision-icon {
+        margin-bottom: 40px;
+    }
+
+    .vision-content {
+        margin-left: 0;
+    }
 }
 
 /* Responsive styles for screens under 1025px */
@@ -1373,17 +1416,8 @@ footer {
         display: none;
     }
 
-    .footer-container {
-        gap: 0;
-        flex-wrap: wrap;
-    }
-
     .footer-left {
         width: 100%;
-    }
-
-    .footer-right {
-        display: none !important;
     }
 
     .environmental-icon {
@@ -1392,6 +1426,12 @@ footer {
 }
 
 @media (max-width: 900px) {
+
+    .footer-container {
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
     .contact {
         padding-left: 20px;
         padding-right: 20px;
@@ -1429,6 +1469,10 @@ footer {
     .logo-content {
         width: 100%;
         text-align: center;
+    }
+
+    .footer-right {
+        display: none !important;
     }
 
     .bottom {
@@ -1504,7 +1548,7 @@ footer {
     .footer-g-icon {
         display: none;
     }
-    
+
     .message-tag {
         padding: 32px 20px;
     }

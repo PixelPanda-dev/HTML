@@ -389,6 +389,7 @@ body {
 .page-title .text {
     font-size: 32px;
     font-weight: bold;
+    color: #444C55;
 } 
 
 .interview-detail {
@@ -464,13 +465,14 @@ body {
 
 .interview-answer {
     font-size: 16px;
-    color: #333333;
+    color: #444C55;
     line-height: 1.8;
     letter-spacing: -1px;
 }
 
 .interview-answer p {
     margin: 0;
+    color: #444C55;
 }
 
 .interview-back-button {
@@ -564,7 +566,6 @@ footer {
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: 0.1;
     pointer-events: none;
 }
 
@@ -675,7 +676,7 @@ footer {
 
 .footer-nav {
     display: flex;
-    gap: 32px;
+    gap: 25px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -683,7 +684,7 @@ footer {
 .footer-nav-link {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #FFFFFF;
     text-decoration: none;
     transition: opacity 0.3s ease;
@@ -731,7 +732,25 @@ footer {
 
 @media (max-width: 1280px) {
     .interview-container {
-        padding: 80px 20px;
+        padding: 80px 40px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        width: 100%;
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+    }
+
+    .footer-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -757,21 +776,17 @@ footer {
         padding: 60px 60px;
     }
 
-    .footer-container {
-        gap: 0;
-        flex-wrap: wrap;
-    }
-
     .footer-left {
         width: 100%;
-    }
-
-    .footer-right {
-        display: none !important;
     }
 }
 
 @media (max-width: 900px) {
+
+    .footer-container {
+        gap: 0;
+        flex-wrap: wrap;
+    }
 
     .footer-logo-section {
         flex-wrap: wrap;
@@ -781,6 +796,10 @@ footer {
     .logo-content {
         width: 100%;
         text-align: center;
+    }
+
+    .footer-right {
+        display: none !important;
     }
 
     .bottom {
