@@ -719,6 +719,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #154994;
+    text-align: center;
 }
 
 .interview {
@@ -1674,6 +1675,7 @@ footer {
 
     .help-content p {
         font-size: 16px;
+        text-align: left;
     }
 
     .guideline {
