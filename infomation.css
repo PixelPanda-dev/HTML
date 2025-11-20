@@ -244,7 +244,7 @@ body {
 
 .sidebar-body {
     flex: 1;
-    background-color: #154994;
+    background: linear-gradient(to right, #144892, #062859);
     padding: 40px 0px;
     display: flex;
     flex-direction: column;
@@ -459,9 +459,7 @@ body {
     font-size: 16px;
     color: #444C55;
     line-height: 1.8;
-    letter-spacing: -1px;
     margin: 0;
-    letter-spacing: -4px;
 }
 
 .our-works {
@@ -530,7 +528,7 @@ body {
 
 .our-works-question {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     color: #154994;
     line-height: 1.6;
     letter-spacing: -1px;
@@ -584,7 +582,6 @@ body {
     font-size: 16px;
     color: #444C55;
     margin-top: 26px;
-    letter-spacing: -3px;
 }
 
 .make-item {
@@ -628,6 +625,7 @@ body {
 
 .make-item-text {
     font-size: 16px;
+    color: #444C55;
 }
 
 .our-help {
@@ -662,7 +660,6 @@ body {
     font-size: 16px;
     color: #444C55;
     margin-top: 26px;
-    letter-spacing: -3px;
 }
 
 .help-circle-items {
@@ -687,7 +684,7 @@ body {
 
 .circle-item-title {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     color: #154994;
     text-align: center;
     margin-bottom: 9px;
@@ -711,6 +708,7 @@ body {
 .circle-item-text p {
     font-size: 16px;
     letter-spacing: -2px;
+    color: #444C55;
 }
 
 .help-content {
@@ -721,7 +719,6 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #154994;
-    text-align: center;
 }
 
 .interview {
@@ -821,7 +818,6 @@ body {
     font-size: 72px;
     font-weight: 700;
     color: #154994;
-    letter-spacing: -2px;
 }
 
 .guideline-jobs {
@@ -897,7 +893,7 @@ body {
     grid-template-columns: 200px 1fr;
     gap: 20px;
     padding: 16px 0;
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #154994;
 }
 
 .guideline-detail-row:last-child {
@@ -915,7 +911,6 @@ body {
     font-size: 16px;
     color: #444C55;
     line-height: 1.8;
-    letter-spacing: -1px;
 }
 
 .guideline-detail-value p {
@@ -929,6 +924,8 @@ body {
 .guideline-detail-value ul {
     margin: 8px 0;
     padding-left: 20px;
+    list-style: none;
+    padding-left: 0;
 }
 
 .guideline-detail-value li {
@@ -946,7 +943,7 @@ body {
 
 .entry-form-img {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     width: 100%;
     z-index: 0;
 }
@@ -1619,6 +1616,11 @@ footer {
 
 @media (max-width: 716px) {
 
+    .interview-header-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
     .recruitment {
         height: 560px;
     }
@@ -1728,10 +1730,6 @@ footer {
         margin-bottom: 4px;
     }
 
-    .guideline-detail-value {
-        font-size: 14px;
-    }
-
     .entry-form {
         padding: 40px 0;
     }
@@ -1743,10 +1741,6 @@ footer {
 
     .entry-form-title {
         font-size: 24px;
-    }
-
-    .entry-form-intro {
-        font-size: 14px;
     }
 
     .form-row {
@@ -1803,6 +1797,14 @@ footer {
         border: 3px solid #FFFFFF;
     }
 
+    .help-container {
+        padding: 0;
+    }
+
+    .interview {
+        padding: 20px 0px;
+    }
+
     footer {
         padding: 50px 40px;
     }
@@ -1812,4 +1814,6 @@ footer {
     .logo-content {
         text-align: start;
     }
+
+
 }

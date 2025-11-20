@@ -244,7 +244,7 @@ body {
 
 .sidebar-body {
     flex: 1;
-    background-color: #154994;
+    background: linear-gradient(to right, #144892, #062859);
     padding: 40px 0px;
     display: flex;
     flex-direction: column;
@@ -843,12 +843,17 @@ footer {
 
     .interview-container {
         padding: 20px 20px;
+        padding-bottom: 40px;
+    }
+
+    .page-title {
+        padding-bottom: 10px;
     }
 
     .page-title .title {
         font-size: 32px;
+    
     }
-
     .page-title .text {
         font-size: 16px;
     }
@@ -858,7 +863,7 @@ footer {
     }
 
     .interview-detail-container {
-        padding: 40px 20px;
+        padding: 0px 20px;
     }
 
     .interview-question {

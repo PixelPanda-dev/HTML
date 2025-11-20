@@ -244,7 +244,7 @@ body {
 
 .sidebar-body {
     flex: 1;
-    background-color: #154994;
+    background: linear-gradient(to right, #144892, #062859);
     padding: 40px 0px;
     display: flex;
     flex-direction: column;
@@ -394,7 +394,6 @@ body {
     margin-top: 60px;
     position: relative;
     z-index: 2;
-    padding: 0px 40px;
 }
 
 .facility-items {
@@ -422,7 +421,7 @@ body {
 
 .facility-item-description {
     font-size: 16px;
-    color: #666666;
+    color: #444C55;
     margin-bottom: 24px;
     letter-spacing: -1px;
     line-height: 1.6;
@@ -446,6 +445,7 @@ body {
     color: #444C55;
     text-align: center;
     letter-spacing: -1px;
+    font-weight: bold;
 }
 
 .capabilities-section {
@@ -461,14 +461,13 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #154994;
-    margin-bottom: 30px;
     letter-spacing: -1px;
 }
 
 .capabilities-subsection {
     background-color: #154994;
     padding: 12px 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -487,7 +486,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px 60px;
-    padding: 0px 40px;
+    padding: 0px 5px;
 }
 
 .capabilities-column {
@@ -550,7 +549,7 @@ body {
 
 .capability-equipment-note {
     font-size: 16px;
-    color: #666666;
+    color: #444C55;
     margin-left: 12px;
     letter-spacing: -1px;
 }
@@ -958,9 +957,6 @@ footer {
         padding: 80px 60px;
     }
 
-    .facility-items-box {
-        padding: 0px 20px;
-    }
 
     .facility-items {
         gap: 30px 20px;
@@ -1112,19 +1108,11 @@ footer {
         font-size: 20px;
     }
 
-    .facility-item-description {
-        font-size: 14px;
-    }
-
     .facility-item-image img {
         width: 100%;
         max-width: 350px;
         height: auto;
         aspect-ratio: 350 / 248;
-    }
-
-    .facility-item-caption {
-        font-size: 14px;
     }
 
     .capabilities-section {
@@ -1138,7 +1126,7 @@ footer {
     }
 
     .capabilities-subsection-title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .capabilities-content {
@@ -1146,21 +1134,8 @@ footer {
         gap: 30px;
     }
 
-    .capability-title {
-        font-size: 16px;
-    }
-
     .capability-label {
         font-size: 16px;
-    }
-
-    .capability-range,
-    .capability-equipment {
-        font-size: 13px;
-    }
-
-    .capability-equipment-note {
-        font-size: 12px;
     }
 
     .contact {
@@ -1226,6 +1201,10 @@ footer {
         align-items: flex-start;
         background-color: #FFFFFF;
         gap: 46px;
+    }
+
+    .contact {
+        padding-top: 50px;
     }
 
     .contact-left {
