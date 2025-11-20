@@ -883,7 +883,6 @@ body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 42px;
     font-weight: 900;
-    letter-spacing: 0.1em;
     margin: 0;
 }
 
@@ -1098,7 +1097,7 @@ body {
 
 .contact {
     width: 100%;
-    min-height: 600px;
+    min-height: 640px;
     background-image: url('./images/back-6.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -1146,7 +1145,6 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #103D7D;
-    letter-spacing: 0.1em;
     margin: 0;
 }
 
@@ -1257,9 +1255,9 @@ body {
 }
 
 .contact-phone-number {
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: Heebo;
     font-size: 32px;
-    font-weight: 900;
+    font-weight: bold;
     color: #103D7D;
     margin: 0;
     letter-spacing: 0.05em;
@@ -1576,7 +1574,7 @@ footer {
     }
 
     .info-cards {
-        margin-top: 250px;
+        margin-top: 150px;
     }
 
     .footer-container {
@@ -1832,7 +1830,6 @@ footer {
 
     .recruit-title {
         font-size: 32px;
-        letter-spacing: 2px;
     }
 
     .contact {

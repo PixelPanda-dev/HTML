@@ -428,6 +428,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 16px;
+    text-align: center;
+    justify-content: center;
 }
 
 .contact-phone-icon {
