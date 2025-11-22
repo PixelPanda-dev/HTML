@@ -18,8 +18,9 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #E5E5E5;
-    position: relative;
-    z-index: 100;
+    position: fixed;
+    top: 0px;
+    z-index: 30000;
 }
 
 .header-container {
@@ -339,6 +340,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
+    margin-top: 80px;
 
 }
 
@@ -579,7 +581,6 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #103D7D;
-    letter-spacing: 0.1em;
     margin: 0;
 }
 
@@ -629,6 +630,8 @@ body {
 }
 
 .contact-email-text {
+    display: flex;
+    flex-wrap: wrap;
     flex: 1;
     text-align: left;
 }
@@ -768,9 +771,8 @@ footer {
 
 .footer-g-icon {
     position: absolute;
-    top: 50%;
+    bottom: 0;
     left: 10%;
-    transform: translateY(-50%);
     width: 400px;
     height: auto;
     opacity: 0.6;
@@ -907,7 +909,7 @@ footer {
 
 .bottom-left {
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
 }
@@ -918,7 +920,7 @@ footer {
 
 .bottom-right {
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
 }
@@ -1149,6 +1151,28 @@ footer {
 
     footer {
         padding: 50px 40px;
+    }
+
+    .bottom-left {
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    
+    .bottom-left p {
+        margin: 0;
+    }
+    
+    .bottom-right {
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
+    .footer-company-name {
+        font-size: 18px;
     }
 }
 

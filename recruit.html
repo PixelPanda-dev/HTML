@@ -160,11 +160,11 @@
             <div class="make-item">
                 <div class="make-item-left">
                     <img src="./images/make-img-2.png" alt="">
-                    <button class="make-item-button">光学結晶</button>
+                    <button class="make-item-button">光学薄膜</button>
                 </div>
                 <div class="make-item-right">
                     <div>
-                        <h1 class="make-item-title">光の性質を変える「魔法の石(光学結晶)」</h1>
+                        <h1 class="make-item-title">光を選別する「特殊な膜(光学薄膜)」</h1>
                         <p class="make-item-text">
                             メガネのレンズに「光の反射を抑える膜」がコーティングされているのをご存知ですか？あれも光学薄膜の一種です。私たちは、目に見えないほど薄い膜を何層にも重ねる技術で、「特定の色の光だけを通す」「光を完全に反射させる」といった、より高度な光のコントロールを実現しています。
                         </p>
@@ -252,14 +252,14 @@
                     <div class="interview-header-title">INTERVIEW</div>
                 </div>
                 <div class="interview-imgs">
-                    <a href="interview_main.html" class="interview-img">
+                    <div onclick="(location.replace('./interview_main.html'))" class="interview-img">
                         <img src="./images/interview-woman.png" alt="">
-                        <a href="./interview_main.html" class="interview-img-button"><img src="images/arrow-right-blue.png" alt=""></a>
-                    </a>
-                    <a href="interview_main.html" class="interview-img">
+                        <span><a href="./interview_main.html" class="interview-img-button"><img src="images/arrow-right-blue.png" alt=""></a></span>
+                    </div>
+                    <div onclick="(location.replace('./interview_main.html'))" class="interview-img">
                         <img src="./images/interview-man.png" alt="">
-                        <a href="./interview_main.html" class="interview-img-button"><img src="images/arrow-right-blue.png" alt=""></a>
-                    </a>
+                        <span><a href="./interview_main.html" class="interview-img-button"><img src="images/arrow-right-blue.png" alt=""></a></span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -276,7 +276,7 @@
                     <div class="guideline-job-header" onclick="toggleJobItem(this)">
                         <span class="guideline-job-title">製造工 | 窯業・土石製品検査工</span>
                         <span class="guideline-job-toggle">
-                            <div class="minus-icon"></div>
+                            <img src="./images/minus-icon.png" alt="Expand" class="toggle-icon">
                         </span>
                     </div>
                     <div class="guideline-job-content">
@@ -527,9 +527,7 @@
                     alt=""></span>
             <span class="scroll-text">TOP</span>
         </button>
-        <div class="footer-background">
-            <img src="./images/g-icon.png" alt="G Icon" class="footer-g-icon">
-        </div>
+        <img src="./images/g-icon.png" alt="G Icon" class="footer-g-icon">
         <div class="footer-container">
             <div class="footer-left">
                 <div class="footer-logo-section">
